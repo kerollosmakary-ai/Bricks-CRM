@@ -1,0 +1,122 @@
+.review-container {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 2rem;
+}
+
+.review-header {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-header h1 {
+  margin: 0;
+}
+
+.review-header p {
+  color: var(--neutral);
+  margin: 0.5rem 0 0;
+}
+
+.review-main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.review-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-card section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.review-card section:last-of-type {
+  border-bottom: none;
+}
+
+.review-card h3 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.review-card label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.transcript-display {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  line-height: 1.6;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: right;
+}
+
+.sentiment-btns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.sentiment-btns .btn {
+  padding: 1rem;
+  border: 2px solid var(--border);
+}
+
+.sentiment-btns .btn:hover {
+  border-color: var(--primary);
+}
+
+.sentiment-btns .btn.selected {
+  color: white;
+}
+
+.review-card input,
+.review-card select {
+  width: 100%;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.actions button {
+  flex: 1;
+}
